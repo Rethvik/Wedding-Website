@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+.testinomials{
+    height: 55rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding: 2rem;
+}
+.inactive{
+    display: none;
+}
+.fa-solid{
+    color:rgba(0, 0, 0, 0.633);
+}
+.quote-symbol{
+    position: absolute;
+    right:6%;
+    top:7%;
+}
+.testinomial-heading{
+    font-size:3rem;
+    margin-bottom:2rem;
+}
+.testinomial-header{
+    font-size:2.5rem;
+    letter-spacing:.1rem
+}
+.testtinomial-main{
+    width:100%;
+    padding: 0 10rem;
+    height:39rem;
+    display: flex;
+    margin:auto;
+    margin-top:5rem;
+    justify-content: space-between;
+    font-size:1.5rem;
+    text-align:left;
+}
+.testinomial-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.testinomial-image{
+    width:40%;
+    height:100%;
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 0 rgba(128, 128, 128, 0.7);
+    transition:all .3s;
+    outline-offset: 1rem;
+}
+
+.testinomial-couple-image{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+.testinomial-content{
+    width:50%;
+}
+.client-feedback{
+    letter-spacing: 1px;
+}
+.client-names{
+    margin-bottom:1rem;
+    letter-spacing: 2px;
+}
+.client-date{
+    letter-spacing:2px;
+}
+.testinomial-buttons{
+    width:15rem;
+    margin:auto;
+    margin-top:3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.image-buttons{
+    margin-top:2rem;
+    cursor: pointer;
+    width:30px;
+    height:30px;
+    border-radius:10px;
+    outline-offset: .3rem;
+    outline:2px solid white;
+    box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.528);
+    transform: translateY(-5px);
+    transition: all .3s;
+}
+.image-buttons:active{
+    transform: translateY(0);
+}
